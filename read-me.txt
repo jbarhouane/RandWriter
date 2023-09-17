@@ -1,0 +1,32 @@
+# PS6: RandWriter
+
+## Contact
+Name: Jessica Barhouane
+Section: 11AM
+Time to Complete: 12 hours
+
+
+## Description
+Explain what the project does.
+It essentially prints out a markov of varying orders that scrambles letters to whatever order you choose based on a text.
+
+### Features
+Describe what your major decisions were and why you did things that way.
+I ended up using an unordered_map because the original way I did constructed the program it was too slow
+
+### Testing
+What tests did you write?  What exceptions did you use?  Does your code pass the tests?
+I wrote tests to check that the exceptions aren't being thrown I had some errors related to not diving by 0.
+### Lambda
+What does your lambda expression do?  What function did you pass it to?
+I didnt use a lambda
+### Issues
+What did you have trouble with?  What did you learn?  What doesn't work?  Be honest.  You might be penalized if you claim something works and it doesn't.
+I had trouble in the beginning with speed, I learned more about using maps and how they are beneficial, my tests dont work and i had trouble with the function I added k1gramcounter not displaying the correct value in my overloaded operator.
+### Extra Credit
+Anything special you did.  This is required to earn bonus points.
+Did you make a new instrument?  What is the instrument and how did you make it?  How does the user choose between the guitar or the new instrument?
+
+## Acknowledgements
+List all sources of help including the instructor or TAs, classmates, and web pages.
+I mostly used the slides from class 
